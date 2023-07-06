@@ -3,7 +3,6 @@
 //
 
 #include "DVD.h"
-#include "Disc.h"
 #include "iostream"
 
 string DVD::to_String() {

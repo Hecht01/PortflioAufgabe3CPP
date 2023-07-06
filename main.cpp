@@ -1,9 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <memory>
-#include "DVD.cpp"
+#include "Produkte/DVD.h"
+#include "Produkte/Bluray.h"
+#include "FileProcessing/FileReader.h"
+#include "FileProcessing/Processor.h"
+
 int main() {
-    DVD d(230, "Das_Sterben_der_Kuehe", "93");
-    cout << d << endl;
+
+    FileReader f =  FileReader("acme.load");
+    vector<string> v = f.readFile();
+
+
     return 0;
 }
