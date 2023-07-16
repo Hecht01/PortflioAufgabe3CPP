@@ -10,6 +10,9 @@ int main() {
 
     FileReader f =  FileReader("acme.load");
     vector<string> v = f.readFile();
+    for(int i = 0; i<v.size(); i++){
+        cout<<v.at(i)<<" "<< endl;
+    }
 
 
     return 0;
