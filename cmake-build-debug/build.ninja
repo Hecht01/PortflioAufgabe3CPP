@@ -55,14 +55,26 @@ build CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj: CXX_COMPILER__PortflioAufgab
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
   OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir
 
-build CMakeFiles/PortflioAufgabe3.dir/DVD.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/DVD.cpp || cmake_object_order_depends_target_PortflioAufgabe3
-  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\DVD.cpp.obj.d
+build CMakeFiles/PortflioAufgabe3.dir/Produkte/DVD.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Produkte/DVD.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Produkte\DVD.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
-  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir
+  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\Produkte
 
-build CMakeFiles/PortflioAufgabe3.dir/Bluray.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Bluray.cpp || cmake_object_order_depends_target_PortflioAufgabe3
-  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Bluray.cpp.obj.d
+build CMakeFiles/PortflioAufgabe3.dir/Produkte/Bluray.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Produkte/Bluray.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Produkte\Bluray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
+  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\Produkte
+
+build CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileReader.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/FileProcessing/FileReader.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\FileProcessing\FileReader.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
+  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\FileProcessing
+
+build CMakeFiles/PortflioAufgabe3.dir/Lagersystem.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Lagersystem.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Lagersystem.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
   OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir
@@ -75,7 +87,7 @@ build CMakeFiles/PortflioAufgabe3.dir/Bluray.cpp.obj: CXX_COMPILER__PortflioAufg
 #############################################
 # Link the executable PortflioAufgabe3.exe
 
-build PortflioAufgabe3.exe: CXX_EXECUTABLE_LINKER__PortflioAufgabe3_Debug CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj CMakeFiles/PortflioAufgabe3.dir/DVD.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Bluray.cpp.obj
+build PortflioAufgabe3.exe: CXX_EXECUTABLE_LINKER__PortflioAufgabe3_Debug CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Produkte/DVD.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Produkte/Bluray.cpp.obj CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileReader.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Lagersystem.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir

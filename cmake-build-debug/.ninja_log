@@ -1,8 +1,12 @@
 # ninja log v5
-14	126	7093061992536393	CMakeFiles/PortflioAufgabe3.dir/Bluray.cpp.obj	ad365f2fd4eb126c
-12	360	7093925471681491	CMakeFiles/PortflioAufgabe3.dir/Diskette.cpp.obj	5688ed84c2d795b3
-3	592	7095914405187030	CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj	ae05b36dda2b37e5
-7	459	7095914403867719	CMakeFiles/PortflioAufgabe3.dir/DVD.cpp.obj	3444c641efe25560
-468	569	7093907176614466	PortflioAufgabe3.exe	f99b80a495b19ac8
-1	109	7095928290316061	build.ninja	f6cce5b3281f5ea
-5	326	7095910216994245	CMakeFiles/PortflioAufgabe3.dir/Disc.cpp.obj	ba9fc6b7b77794bf
+2	580	7114796146798345	CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj	ae05b36dda2b37e5
+581	687	7114796147843483	PortflioAufgabe3.exe	1291ee5b1620474c
+1	109	7115496066655217	build.ninja	f6cce5b3281f5ea
+11	77	7114792622680690	CMakeFiles/PortflioAufgabe3.dir/Produkte/Bluray.cpp.obj	ae8bdcabc6323755
+2	627	7114792628171480	CMakeFiles/PortflioAufgabe3.dir/Produkte/DVD.cpp.obj	ba857506b2a9c808
+16	659	7114792628496526	CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileReader.cpp.obj	2f6d7915f63cc5a3
+3	544	7114795663648466	CMakeFiles/PortflioAufgabe3.dir/FileProcessing/Processor.cpp.obj	1e90c3281fd5d5f7
+8	118	7115534849504878	CMakeFiles/PortflioAufgabe3.dir/Lagersystem.cpp.obj	bfd53b813a0f93
+12	652	7115534854841770	CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileReader.cpp.obj	2f6d7915f63cc5a3
+3	665	7115534854967640	CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj	ae05b36dda2b37e5
+665	849	7115534856796704	PortflioAufgabe3.exe	a4347f9c01f22477

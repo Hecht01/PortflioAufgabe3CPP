@@ -16,7 +16,12 @@ namespace std {
         FileReader(string newFileName): FileName(newFileName){};
 
         vector<string> readFile();
+
+        vector<string> operator () (){
+            return readFile();
+        }
     };
+
 
 } // std
 
