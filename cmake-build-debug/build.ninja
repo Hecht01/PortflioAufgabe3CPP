@@ -79,17 +79,23 @@ build CMakeFiles/PortflioAufgabe3.dir/FileProcessing/Processor.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
   OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\FileProcessing
 
-build CMakeFiles/PortflioAufgabe3.dir/Kunde.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Kunde.cpp || cmake_object_order_depends_target_PortflioAufgabe3
-  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Kunde.cpp.obj.d
+build CMakeFiles/PortflioAufgabe3.dir/Kunde/Kunde.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Kunde/Kunde.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Kunde\Kunde.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
-  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir
+  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\Kunde
 
-build CMakeFiles/PortflioAufgabe3.dir/Lager.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Lager.cpp || cmake_object_order_depends_target_PortflioAufgabe3
-  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Lager.cpp.obj.d
+build CMakeFiles/PortflioAufgabe3.dir/Lager/Lager.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/Lager/Lager.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\Lager\Lager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
-  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir
+  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\Lager
+
+build CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileExporter.cpp.obj: CXX_COMPILER__PortflioAufgabe3_Debug A$:/Coding$ Stuff/C++/cppUni/PortflioAufgabe3/FileProcessing/FileExporter.cpp || cmake_object_order_depends_target_PortflioAufgabe3
+  DEP_FILE = CMakeFiles\PortflioAufgabe3.dir\FileProcessing\FileExporter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir
+  OBJECT_FILE_DIR = CMakeFiles\PortflioAufgabe3.dir\FileProcessing
 
 
 # =============================================================================
@@ -99,7 +105,7 @@ build CMakeFiles/PortflioAufgabe3.dir/Lager.cpp.obj: CXX_COMPILER__PortflioAufga
 #############################################
 # Link the executable PortflioAufgabe3.exe
 
-build PortflioAufgabe3.exe: CXX_EXECUTABLE_LINKER__PortflioAufgabe3_Debug CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Produkte/DVD.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Produkte/Bluray.cpp.obj CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileReader.cpp.obj CMakeFiles/PortflioAufgabe3.dir/FileProcessing/Processor.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Kunde.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Lager.cpp.obj
+build PortflioAufgabe3.exe: CXX_EXECUTABLE_LINKER__PortflioAufgabe3_Debug CMakeFiles/PortflioAufgabe3.dir/main.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Produkte/DVD.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Produkte/Bluray.cpp.obj CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileReader.cpp.obj CMakeFiles/PortflioAufgabe3.dir/FileProcessing/Processor.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Kunde/Kunde.cpp.obj CMakeFiles/PortflioAufgabe3.dir/Lager/Lager.cpp.obj CMakeFiles/PortflioAufgabe3.dir/FileProcessing/FileExporter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PortflioAufgabe3.dir

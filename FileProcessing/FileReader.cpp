@@ -4,7 +4,6 @@
 
 #include "FileReader.h"
 #include <fstream>
-
 namespace std {
     vector<string> FileReader::readFile() {
         vector<string> v;

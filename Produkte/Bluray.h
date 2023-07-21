@@ -6,6 +6,13 @@
 #define PORTFLIOAUFGABE3_BLURAY_H
 #include <string>
 #include "Disc.h"
+#include <string>
+#include <vector>
+#include <memory>
+#include <map>
+#include "../Produkte/Bluray.h"
+#include "../Produkte/DVD.h"
+#include "../Kunde/Kunde.h"
 
 namespace std {
 
@@ -18,7 +25,15 @@ namespace std {
                 Disc(Titel, ProduktID), AnzahlTracks(AnzahlTracks),
                 Aufloesung(Aufloesung){};
         string to_String();
+        int getId(){
+            return ProduktID;
+        }
+        string getName(){
+            return Titel;
+        }
         friend ostream& operator<<(ostream& os, Bluray& b);
+
+        void setTitleForExport();
 
     };
 

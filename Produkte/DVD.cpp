@@ -7,10 +7,17 @@
 
 string DVD::to_String() {
 
-    return "DVD" + to_string(ProduktID) + " " + Titel + " " + LaufzeitInMintuten;
+    return "DVD " + to_string(ProduktID) + " " + Titel + " " + LaufzeitInMintuten;
 };
 
 ostream& operator<<(ostream& os, DVD& d){
     os <<d.to_String();
     return os;
+};
+
+void DVD::setTitleForExport(){
+    string temp = Titel;
+    replace(temp.begin(),
+            temp.end(), ' ', '_');
+    Titel = temp;
 };

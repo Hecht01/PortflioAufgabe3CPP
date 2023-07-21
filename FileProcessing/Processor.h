@@ -7,15 +7,19 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include "A:\Coding Stuff\C++\cppUni\PortflioAufgabe3\Produkte\DVD.h"
-#include "A:\Coding Stuff\C++\cppUni\PortflioAufgabe3\Kunde.h"
+#include "..\Produkte\DVD.h"
+#include "..\Produkte\Bluray.h"
+#include "../Kunde/Kunde.h"
 
 
 class Processor {
 private:
-    vector<shared_ptr<Disc>> Produkte;
+    vector<shared_ptr<Bluray>> Blurays;
+    vector<shared_ptr<DVD>> DVDs;
     vector<shared_ptr<Kunde>> Kunden;
     vector<string> FileSplitInLines;
+
+    map<int,int> ProdukteImLager{};
 
 public:
     Processor(vector<string> FileSplitInLines):
@@ -25,7 +29,24 @@ public:
     void operator () (){
         Process();
     }
+    void setProdukteImLager(int ProduktID,int Anzahl);
 
+    vector<shared_ptr<Bluray>> getBlurays(){
+        return Blurays;
+    };
+    vector<shared_ptr<DVD>> getDVDs(){
+        return DVDs;
+    };
+    vector<shared_ptr<Kunde>> getKunden(){
+        return Kunden;
+    };
+    vector<string> getFileSplitInLines(){
+        return FileSplitInLines;
+    };
+
+    map<int,int> getProdukteImLager(){
+        return ProdukteImLager;
+    };
 
 };
 

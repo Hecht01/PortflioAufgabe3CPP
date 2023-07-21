@@ -6,8 +6,8 @@
 
 namespace std {
     string Kunde::to_String() {
-
-        return "Kunde" + to_string(Kundennummer) + " " + Name + " " + Addresse;
+        return "Kunde " + to_string(Kundennummer) + " " + Name + " " + Vorname +
+        " " + Addresse + " " + Hausnummer + " " + Postleitzahl + " " + Ort;
     };
 
     ostream& operator<<(ostream& os, Kunde& k){
